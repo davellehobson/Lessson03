@@ -8,6 +8,49 @@ White FAF9F9/ CMYK 0, 0, 0, 2
 Peach Color FFD6BA/ CMYK 0, 16, 27, 0
 */
 
+
+/* GLOBAL STYLES 
+-------------------- */
+body {
+    color: #555B6E;
+}
 img {
     width: 300px;
 }
+
+
+
+/* ABOUT/ PROFILE STYLES 
+-------------------- */
+
+
+
+
+/* PROJECT STYLES 
+-------------------- */
+.projects {
+    background: #BEE3DB;
+}
+
+
+
+
+/* WORK EXPERIENCE STYLES 
+-------------------- */
+.work-experience {
+    background: #FFD6BA;
+}
+
+
+
+
+/* EDUCATION/ CERTIFICATIONS STYLES 
+-------------------- */
+.education {
+    background: #BEE3DB;
+}
+
+
+
+/* CONTACT INFO STYLES 
+-------------------- */
