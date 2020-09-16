@@ -13,23 +13,56 @@ header {
     color: #FAF9F9;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 /* GLOBAL STYLES 
 -------------------- */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *after [
+    box-sizing: inherit;
+]
 body {
     color: #555B6E;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
 img {
     width: 300px;
 }
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+
 .content-wrap {
     width: 950px;
     margin: 0 auto; 
     padding: 60px 0;
 }
+
+h1 {
+    font-size: 100px;
+}
+
+h2 (
+    font-size: 50px;
+)
 
 a {
     color: #89b0ae;
@@ -73,7 +106,15 @@ a:active {
     border-radius: 5px;
 }
 
-
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dotted #FFD6BA;
+    padding: 25px 0; 
+}
+.project-item img {
+    float: left;
+    margin-right: 30px;
+}
 
 
 
