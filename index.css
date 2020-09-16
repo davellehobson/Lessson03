@@ -8,16 +8,31 @@ White FAF9F9/ CMYK 0, 0, 0, 2
 Peach Color FFD6BA/ CMYK 0, 16, 27, 0
 */
 
-
+header {
+    background: 555B6E;
+    color: FAF9F9;
+}
 /* GLOBAL STYLES 
 -------------------- */
 body {
     color: #555B6E;
 }
+
 img {
     width: 300px;
 }
 
+a:hover {
+    background: whitesmoke;
+}
+
+a:focus {
+    outline: 1px #89B0AE;
+}
+
+a:visited {
+    color: gray;
+}
 
 
 /* ABOUT/ PROFILE STYLES 
@@ -54,3 +69,9 @@ img {
 
 /* CONTACT INFO STYLES 
 -------------------- */
+
+
+footer {
+    background: 555B6E;
+    color: FAF9F9;
+}
