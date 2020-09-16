@@ -9,29 +9,47 @@ Peach Color FFD6BA/ CMYK 0, 16, 27, 0
 */
 
 header {
-    background: 555B6E;
-    color: FAF9F9;
+    background: #555B6E;
+    color: #FAF9F9;
+    margin: 0px;
+    padding: 0px;
 }
 /* GLOBAL STYLES 
 -------------------- */
 body {
     color: #555B6E;
+    margin: 0;
+    padding: 0;
 }
 
 img {
     width: 300px;
 }
+.content-wrap {
+    width: 950px;
+    margin: 0 auto; 
+    padding: 60px 0;
+}
+
+a {
+    color: #89b0ae;
+}
 
 a:hover {
     background: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
 }
 
 a:focus {
     outline: 1px #89B0AE;
 }
 
-a:visited {
-    color: gray;
+a:active {
+    color: 
 }
 
 
@@ -46,6 +64,15 @@ a:visited {
 .projects {
     background: #BEE3DB;
 }
+
+.projects a {
+    color: #FAF9F9;
+    background: #555B6E;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 
 
 
@@ -72,6 +99,12 @@ a:visited {
 
 
 footer {
-    background: 555B6E;
-    color: FAF9F9;
+    background: #555B6E;
+    color: #FAF9F9;
+}
+
+footer a {
+    color: #FAF9F9;
+    background: #555B6E;
+    text-decoration: none;
 }
